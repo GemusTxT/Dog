@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url("../img/bg_mane.png") no-repeat center center/cover;
+  padding: 208px 0 400px 0;
+}
+.intro__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog {
+  margin-top: -80px;
+  margin-bottom: 180px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #5D62B5;
+  padding: 100px 87px 0 87px;
+  border-radius: 40px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -80px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: -54px;
+}
+.dog__photo {
+  position: relative;
+  bottom: -120px;
+}
+.dog__photo img {
+  border-radius: 40px;
+}
+.dog__blob {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+}
+
+.perspiciatis {
+  margin-bottom: 122px;
+}
+.perspiciatis__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.perspiciatis__subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #5D62B5;
+  letter-spacing: 2.5px;
+}
+.perspiciatis__title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 68px;
+}
+.perspiciatis__items {
+  display: flex;
+}
+.perspiciatis__love_texts {
+  margin-left: 86px;
+  margin-right: 110px;
+}
+.perspiciatis__love_subtitle {
+  font-size: 19px;
+  color: #F2726F;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.perspiciatis__love_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4B4B4B;
+}
+.perspiciatis__vet_texts {
+  margin-right: 110px;
+}
+.perspiciatis__vet_subtitle {
+  font-size: 19px;
+  color: #F2726F;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.perspiciatis__vet_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4B4B4B;
+}
+.perspiciatis__stream_subtitle {
+  font-size: 19px;
+  color: #F2726F;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.perspiciatis__stream_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4B4B4B;
+}
+.perspiciatis__img {
+  position: absolute;
+}
+.perspiciatis__img_l {
+  margin-left: 10px;
+  margin-right: 260px;
+}
+.perspiciatis__img_v {
+  margin-right: 255px;
+}
+
+.tennis {
+  width: 100%;
+  height: 500px;
+  background: url("../img/bg_tennis.png") no-repeat center center/cover;
+}
+.tennis__conteiner {
+  width: 100%;
+}
+.tennis__items {
+  position: absolute;
+  right: 230px;
+  margin-top: 112px;
+}
+.tennis__title {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 42px;
+}
+.tennis__btn {
+  position: absolute;
+  right: 153px;
+}
+.tennis__btn-text {
+  background-color: #F2726F;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 22px;
+  border-radius: 10px;
+}
+.tennis__make {
+  width: 270px;
+  border-radius: 10px;
+  border-color: #F2726F;
+}
+.tennis__blob {
+  position: absolute;
+  z-index: 2;
+}
+.tennis__dots {
+  position: absolute;
+  z-index: 0;
+  margin-left: px;
+  top: 2100px;
+}
+.tennis__pupy {
+  position: absolute;
+  z-index: 3;
+  top: 2020px;
+}
+.tennis__ball {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 2120px;
+}
